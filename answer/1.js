@@ -24,7 +24,6 @@
 //   console.log(str);
 // }
 
-
 // *
 // **
 // ***
@@ -44,14 +43,28 @@
 // 0101
 // 10101
 
-for(let i=1;i<6;i++){
-  for(let j=1; j<=i;j++){
-    if(j % 2===0){
-      console.log('0');
+// for (let i = 1; i < 6; i++) {
+//   let str = '';
+//   for (let j = 1; j <= i; j++) {
+//     if ((i + j) % 2 === 0) {
+//       str += '1';
+//     } else {
+//       str += '0';
+//     }
+//   }
+//   console.log(str);
+// }
+
+// 1
+// 2,3
+// 4,5,6
+// 7,8,9,10
+for(let i=1;i<5;i++){
+  let str="";
+  for(let j=1;j<=i;j++){
+    if(i<j){
+    str++;
     }
-    else{
-      console.log('1');
-    }
-    
   }
+  console.log(str);
 }
