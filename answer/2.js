@@ -9,6 +9,6 @@ function findmaxvalue(numbers){
   return largenumber;
 }
 
-let numbers=[10,20,30,100];
+let numbers=[3,5,7,9,20];
 let maxnumber=findmaxvalue(numbers);
 console.log(maxnumber);
