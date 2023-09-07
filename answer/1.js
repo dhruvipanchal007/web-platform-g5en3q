@@ -62,9 +62,11 @@
 for(let i=1;i<5;i++){
   let str="";
   for(let j=1;j<=i;j++){
-    if(i<j){
-    str++;
+    let num=str;
+    num++;
+    if(j<i){
+    num+="";
     }
   }
-  console.log(str);
+  console.log(num);
 }
