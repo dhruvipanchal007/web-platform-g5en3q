@@ -47,6 +47,11 @@
 for(let i=1;i<6;i++){
   let str="";
   for(let j=1; j<=i;j++){
-    if()
+    if(j % 2===0){
+      console.log('0');
+    }
+    else{
+      console.log('1');
+    }
   }
 }
