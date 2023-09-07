@@ -24,3 +24,4 @@ function findcorrectnuber(num) {
   }
 }
 let ans = findcorrectnuber(num);
+console.log(ans);
