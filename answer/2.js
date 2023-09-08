@@ -118,7 +118,7 @@
 // console.log(sum);
 
 // even number
-let N=prompt('enter value');
-let ans=(N+1)*N;
+let n=prompt('enter value');
+let ans=n*(n+1);
 console.log(ans);
 
