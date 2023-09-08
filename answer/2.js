@@ -80,3 +80,33 @@
 // let num=prompt('enter number');
 // let ans=printdays(num);
 // console.log(ans);
+
+
+// ***find max/min number given this number
+
+// function findmaxvalue(number){
+// let largenumber=number[0];
+// for(let i=1;i<number.length;i++){
+//   if(largenumber<number[i]){
+//   largenumber=number[i];
+//   }
+// }
+// return largenumber;
+// }
+// let number=[3,5,7,9,10,15,20,40,1,5];
+// let maxnumber=findmaxvalue(number);
+// console.log(maxnumber);
+
+// function findminvalue(number){
+//   let smallnumber=number[0];
+//   for(let i=1;i<number.length;i++){
+//     if(smallnumber>number[i]){
+//     smallnumber=number[i];
+//     }
+//   }
+//   return smallnumber;
+//   }
+//   let num=[3,5,7,9,10,15,20,40,1,5];
+//   let minnumber=findminvalue(number);
+//   console.log(minnumber);
+  
