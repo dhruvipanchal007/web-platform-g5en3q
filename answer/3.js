@@ -39,6 +39,11 @@ function decimaltobinary(decimalnumber){
   let binarynumber="";
   while(decimalnumber>0){
     let reminder=decimalnumber%2;
-    binarynumber=reminder
+    binarynumber=reminder+binarynumber;
+    decimalnumber=decimalnumber/2;
   }
+  return binarynumber;
 }
+let decimalnumber=42;
+let bn=decimaltobinary(decimalnumber);
+console.log(bn);
