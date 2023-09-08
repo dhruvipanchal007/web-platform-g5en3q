@@ -51,3 +51,32 @@
 // let ans=findcharacter(c);
 // console.log(ans);
 
+// ***print sunday to saturday
+function printdays(num){
+  if(num<=1){
+    return  "sunday";
+  }
+  else if(num<=2){
+    return "tuesday";
+  }
+  else if(num<=3){
+    return "wensday";
+  }
+  else if(num<=4){
+    return "thursday";
+  }
+  else if(num<=5){
+    return "friday";
+  }
+
+  else if(num<=6){
+    return "saturday";
+  }
+  else {
+    return "invalid";
+  }
+}
+
+let num=prompt('enter number');
+let ans=printdays(num);
+console.log(ans);
