@@ -32,3 +32,13 @@
 //     console.log('palindrome not number');
 //   }
 // }
+
+
+// ***decimal to binary
+function decimaltobinary(decimalnumber){
+  let binarynumber="";
+  while(decimalnumber>0){
+    let reminder=decimalnumber%2;
+    binarynumber=reminder
+  }
+}
