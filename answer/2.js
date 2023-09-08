@@ -110,3 +110,15 @@
 //   let minnumber=findminvalue(number);
 //   console.log(minnumber);
   
+
+// ****sum of  first 100 odd number
+// odd number
+// let n=prompt('enter value');
+// let sum=n*n;
+// console.log(sum);
+
+// even number
+let N=prompt('enter value');
+let ans=(N+1)*N;
+console.log(ans);
+
