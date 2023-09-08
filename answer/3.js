@@ -65,16 +65,16 @@
 
 
 // ***decimalto hexadecimal
-function decimaltohexadecimal(decimalnumber){
-  let hexadecimal="";
-  let hexacharacter="0123456789ABCDEF";
-  while(decimalnumber>0){
-    let reminder=decimalnumber%16;
-    hexadecimal=hexacharacter[reminder]+hexadecimal;
-    decimalnumber=Math.floor(decimalnumber/16);
-  }
-  return hexadecimal;
-}
-let decimalnumber=45;
-let hn=decimaltohexadecimal(decimalnumber);
-console.log(hn);
+// function decimaltohexadecimal(decimalnumber){
+//   let hexadecimal="";
+//   let hexacharacter="0123456789ABCDEF";
+//   while(decimalnumber>0){
+//     let reminder=decimalnumber%16;
+//     hexadecimal=hexacharacter[reminder]+hexadecimal;
+//     decimalnumber=Math.floor(decimalnumber/16);
+//   }
+//   return hexadecimal;
+// }
+// let decimalnumber=45;
+// let hn=decimaltohexadecimal(decimalnumber);
+// console.log(hn);
