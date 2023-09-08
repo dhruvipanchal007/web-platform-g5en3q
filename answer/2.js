@@ -118,8 +118,8 @@
 // console.log(sum);
 
 // even number
-let n=prompt('enter value');
-let num=Number(n);
-let ans=num*(num+1);
-console.log(ans);
+// let n=prompt('enter value');
+// let num=Number(n);
+// let ans=num*(num+1);
+// console.log(ans);
 
