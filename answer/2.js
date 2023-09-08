@@ -14,6 +14,10 @@
 // console.log(maxnumber);
 // let num = prompt('enter value');
 
+
+
+
+// ****find positive/negative/zero
 // function findcorrectnuber(num) {
 //   if (num < 0) {
 //     return 'negative';
@@ -26,19 +30,24 @@
 // let ans = findcorrectnuber(num);
 // console.log(ans);
 
-function findcharacter(c){
-let  code=code.charcodea
-  if(c>=65 && c<=90){
-    return "capital";
-  }
-  else if(c>=97 && c<=122){
-    return "small";
-  }
-  else{
-    return "special";
-  }
-}
-let c=prompt('enter character');
-let ans=findcharacter(c);
-console.log(ans);
+
+
+
+
+// ***findcharacter capital/small/special
+// function findcharacter(c){
+// let  code=c.charCodeAt(0);
+//   if(code>=65 && code<=90){
+//     return "capital";
+//   }
+//   else if(code>=97 && code<=122){
+//     return "small";
+//   }
+//   else{
+//     return "special";
+//   }
+// }
+// let c=prompt('enter character');
+// let ans=findcharacter(c);
+// console.log(ans);
 
