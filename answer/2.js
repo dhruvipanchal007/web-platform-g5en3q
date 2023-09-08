@@ -119,6 +119,7 @@
 
 // even number
 let n=prompt('enter value');
-let ans=n*(n+1);
+let num=Number(n);
+let ans=num*(num+1);
 console.log(ans);
 
