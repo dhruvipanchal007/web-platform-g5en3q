@@ -14,21 +14,21 @@
 // console.log(originalnumber);
 
 // **palindrome number or not
-let number = 121;
-if (isNaN(number)) {
-  console.log('invalid');
-} else {
-  let reversenumber = 0;
-  let originalnumber = number;
-  while (number > 0) {
-    let digit = number % 10;
-    reversenumber = reversenumber * 10 + digit;
-    number = Math.floor(number / 10);
-  }
+// let number = 121;
+// if (isNaN(number)) {
+//   console.log('invalid');
+// } else {
+//   let reversenumber = 0;
+//   let originalnumber = number;
+//   while (number > 0) {
+//     let digit = number % 10;
+//     reversenumber = reversenumber * 10 + digit;
+//     number = Math.floor(number / 10);
+//   }
 
-  if (reversenumber === originalnumber) {
-    console.log('palindromenumber');
-  } else {
-    console.log('palindrome not number');
-  }
-}
+//   if (reversenumber === originalnumber) {
+//     console.log('palindromenumber');
+//   } else {
+//     console.log('palindrome not number');
+//   }
+// }
