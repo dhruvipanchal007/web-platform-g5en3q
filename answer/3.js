@@ -35,15 +35,30 @@
 
 
 // ***decimal to binary
-function decimaltobinary(decimalnumber){
-  let binarynumber="";
-  while(decimalnumber>0){
-    let reminder=decimalnumber%2;
-    binarynumber=reminder+binarynumber;
-    decimalnumber=decimalnumber/2;
-  }
-  return binarynumber;
-}
-let decimalnumber=42;
-let bn=decimaltobinary(decimalnumber);
-console.log(bn);
+// function decimaltobinary(decimalnumber){
+//   let binarynumber="";
+//   while(decimalnumber>0){
+//     let reminder=decimalnumber%2;
+//     binarynumber=reminder+binarynumber;
+//     decimalnumber=Math.floor(decimalnumber/2);
+//   }
+//   return binarynumber;
+// }
+// let decimalnumber=42;
+// let bn=decimaltobinary(decimalnumber);
+// console.log(bn);
+
+
+// ****decimal to octal
+// function decimaltooctal(decimalnumber){
+//   let octalnumber="";
+//   while(decimalnumber>0){
+//     let reminder=decimalnumber%8;
+//     octalnumber=reminder+octalnumber;
+//     decimalnumber=Math.floor(decimalnumber/8);
+//   }
+//   return octalnumber;
+// }
+// let decimalnumber=250;
+// let on=decimaltooctal(decimalnumber);
+// console.log(on);
