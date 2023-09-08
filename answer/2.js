@@ -27,7 +27,7 @@
 // console.log(ans);
 
 function findcharacter(c){
-
+let  code=code.charcodea
   if(c>=65 && c<=90){
     return "capital";
   }
