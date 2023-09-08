@@ -14,9 +14,6 @@
 // console.log(maxnumber);
 // let num = prompt('enter value');
 
-
-
-
 // ****find positive/negative/zero
 // function findcorrectnuber(num) {
 //   if (num < 0) {
@@ -29,10 +26,6 @@
 // }
 // let ans = findcorrectnuber(num);
 // console.log(ans);
-
-
-
-
 
 // ***findcharacter capital/small/special
 // function findcharacter(c){
@@ -81,7 +74,6 @@
 // let ans=printdays(num);
 // console.log(ans);
 
-
 // ***find max/min number given this number
 
 // function findmaxvalue(number){
@@ -109,7 +101,6 @@
 //   let num=[3,5,7,9,10,15,20,40,1,5];
 //   let minnumber=findminvalue(number);
 //   console.log(minnumber);
-  
 
 // ****sum of  first 100 odd number
 // odd number
@@ -123,3 +114,18 @@
 // let ans=num*(num+1);
 // console.log(ans);
 
+// ***write reverse number
+let number = prompt('enter number');
+let num = Number(number);
+if (isNaN(num)) {
+  console.log('invalid output');
+}
+let reversenumber = 0;
+let originalnumber = num;
+while (num > 0) {
+  let digit = num % 10;
+  reversenumber = reversenumber * 10 + digit;
+  num = Math.floor(num / 10);
+}
+console.log(reversenumber);
+console.log(originalnumber);
