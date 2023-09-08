@@ -78,3 +78,5 @@
 // let decimalnumber=45;
 // let hn=decimaltohexadecimal(decimalnumber);
 // console.log(hn);
+
+// ***armstrongnumber
