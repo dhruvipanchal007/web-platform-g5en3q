@@ -21,6 +21,8 @@
 // }
 // console.log(sum);
 
+
+// ***ascending order
 // let number=[10,20,5,3,8];
 // number.sort(function(a,b){
 //   return a-b;
@@ -28,6 +30,9 @@
 // console.log(number);
 
 
+
+
+// ***pay slip
 // let b=100;
 // let da=10/100 * b;
 // let hra=7.50/100 * b;
@@ -39,6 +44,8 @@
 // console.log(net);
 
 
+
+// ****grade assign student
 // function isgrade(mark){
 //   if(mark<=100 && mark>=80){
 //     return "dist";
