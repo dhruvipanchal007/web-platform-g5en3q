@@ -21,8 +21,12 @@
 // }
 // console.log(sum);
 
-let number=[10,20,5,3,8];
-number.sort(function(a,b){
-  return a-b;
-})
-console.log(number);
+// let number=[10,20,5,3,8];
+// number.sort(function(a,b){
+//   return a-b;
+// })
+// console.log(number);
+
+
+let b=100000;
+let dap=
