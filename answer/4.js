@@ -39,24 +39,24 @@
 // console.log(net);
 
 
-function isgrade(mark){
-  if(mark<=100 && mark>=80){
-    return "dist";
-  }
-  else if(mark<=79 && mark>=60){
-    return "first";
-  }
-  else if(mark<=59 && mark>=50){
-    return "second";
-  }
-  else if(mark<=49 && mark>=35){
-    return "first";
-  }
-  else {
-    return "fail";
-  }
-}
-let mark=prompt('enter mark');
-let grade=isgrade(mark);
-console.log(grade);
+// function isgrade(mark){
+//   if(mark<=100 && mark>=80){
+//     return "dist";
+//   }
+//   else if(mark<=79 && mark>=60){
+//     return "first";
+//   }
+//   else if(mark<=59 && mark>=50){
+//     return "second";
+//   }
+//   else if(mark<=49 && mark>=35){
+//     return "first";
+//   }
+//   else {
+//     return "fail";
+//   }
+// }
+// let mark=prompt('enter mark');
+// let grade=isgrade(mark);
+// console.log(grade);
 
