@@ -18,7 +18,7 @@ let b=1;
 console.log(a);
 console.log(b);
 
-for(let i=1;i<10;i++){
+for(let i=1;i<25;i++){
   let c=a+b;
   console.log(c);
   a=b;
