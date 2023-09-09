@@ -28,5 +28,14 @@
 // console.log(number);
 
 
-let b=100000;
-let dap=
+// let b=100;
+// let da=10/100 * b;
+// let hra=7.50/100 * b;
+// let pf=12.50/100 * b;
+// let ma=300;
+
+// let  gross=Number(b+da+hra+ma);
+// let  net=gross-pf;
+// console.log(net);
+
+
