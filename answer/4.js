@@ -68,16 +68,16 @@
 // console.log(grade);
 
 // ***series  sum
-function seriessum(n){
-  let sum=0;
-  if(n<0){
-    console.log('invalid number')
-    }
-    for(let i=1;i<=n;i++){
-      sum+=1/n;
-    }
-  return sum;
-}
-let n=20;
-let ans=seriessum(n);
-console.log(ans);
+// function seriessum(n){
+//   let sum=0;
+//   if(n<0){
+//     console.log('invalid number')
+//     }
+//     for(let i=1;i<=n;i++){
+//       sum+=1/n;
+//     }
+//   return sum;
+// }
+// let n=20;
+// let ans=seriessum(n);
+// console.log(ans);
