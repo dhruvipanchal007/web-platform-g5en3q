@@ -67,3 +67,18 @@
 // let grade=isgrade(mark);
 // console.log(grade);
 
+// ***series  sum
+function seriessum(n){
+  let sum=0;
+  if(n>0){
+    for(let i=1;i<=n;i++){
+      sum+=1/n;
+    }
+  }
+  else{
+    console.log('invalid number')
+  }
+}
+let n=4;
+let ans=seriessum(n);
+console.log(ans);
